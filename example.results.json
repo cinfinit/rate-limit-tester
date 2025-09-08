@@ -1,0 +1,12 @@
+{
+  "id": "2025-09-07T22-02-54-125Z",
+  "timestamp": "2025-09-07T22:02:54.125Z",
+  "url": "https://google.com/",
+  "rps": 5,
+  "duration": 5,
+  "success": 23,
+  "throttled": 0,
+  "failed": 0,
+  "retries": 0,
+  "avgResponseTime": 431.2608695652174
+}

@@ -1,0 +1,28 @@
+{
+  "name": "rate-limit-tester",
+  "version": "1.0.0",
+  "description": "rate-limit-tester is a CLI + local dashboard tool to simulate heavy traffic to any HTTP API",
+  "main": "src/index.js",
+  "bin": {
+  "rate-limit-tester": "./src/index.js",
+   "rate-limit-tester-server": "./src/server.js"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+  "url": "https://github.com/cinfinit/rate-limit-tester/issues"
+},
+"homepage": "https://github.com/cinfinit/rate-limit-tester#readme",
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/cinfinit/rate-limit-tester.git"
+},
+  "keywords": ["rate-limit", "rate limiting", "api rate limit", "rate limit tester", "api stress test", "api throttling", "retry logic", "exponential backoff", "burst testing", "load testing", "api performance", "api benchmarking", "rate limiter", "http tester", "load simulator", "429 tester", "api test tool", "concurrency testing", "rps testing", "rate-limit-tester" ],
+  "author": "cinfinit",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "express": "^5.1.0"
+  }
+}
